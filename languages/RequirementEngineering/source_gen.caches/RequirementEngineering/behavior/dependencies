@@ -8,8 +8,8 @@
     <classNode dependClassName="RequirementEngineering.behavior.Interaction_BehaviorDescriptor" />
     <classNode dependClassName="RequirementEngineering.behavior.Loading_BehaviorDescriptor" />
     <classNode dependClassName="RequirementEngineering.behavior.Project_BehaviorDescriptor" />
-    <classNode dependClassName="RequirementEngineering.behavior.Reachability_BehaviorDescriptor" />
     <classNode dependClassName="RequirementEngineering.behavior.Scenario_BehaviorDescriptor" />
+    <classNode dependClassName="RequirementEngineering.behavior.Update_BehaviorDescriptor" />
     <classNode dependClassName="RequirementEngineering.behavior.View_BehaviorDescriptor" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.Arrays" />
@@ -71,12 +71,6 @@
     <classNode extendsClassName="java.lang.Cloneable" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
-  <dependency className="RequirementEngineering.behavior.Reachability_BehaviorDescriptor" file="Reachability_BehaviorDescriptor.java">
-    <classNode dependClassName="RequirementEngineering.behavior.Then_BehaviorDescriptor" />
-    <classNode dependClassName="java.lang.Override" />
-    <classNode dependClassName="java.lang.String" />
-    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
-  </dependency>
   <dependency className="RequirementEngineering.behavior.Scenario_BehaviorDescriptor" file="Scenario_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
@@ -91,6 +85,12 @@
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="RequirementEngineering.behavior.Update_BehaviorDescriptor" file="Update_BehaviorDescriptor.java">
+    <classNode dependClassName="RequirementEngineering.behavior.Then_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="RequirementEngineering.behavior.View_BehaviorDescriptor" file="View_BehaviorDescriptor.java">

@@ -51,18 +51,18 @@
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="11" />
-                    <property name="caretX" value="42" />
+                    <property name="caretXRelative" value="53" />
+                    <property name="caretX" value="282" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="ReadOnlyModelAccessor_abi8e8_a" cellNumber="0" isInList="false">
-                      <node node_reference="r:d6774ea2-3db3-48e0-bcf0-76b0432d1893(RequirementEngineering.editor)/2074421435774740022" />
+                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                      <node node_reference="r:d6774ea2-3db3-48e0-bcf0-76b0432d1893(RequirementEngineering.editor)/2074421435774740020" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
                 <errorMarkers />
                 <folded />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:ac6b7302-5709-421f-9847-bea62c10c950(RequirementEngineering.sandbox)/2074421435774880788" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:ac6b7302-5709-421f-9847-bea62c10c950(RequirementEngineering.sandbox)/2074421435774923853" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <folded />
@@ -80,71 +80,23 @@
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="47" />
-                    <property name="caretX" value="91" />
+                    <property name="caretXRelative" value="57" />
+                    <property name="caretX" value="286" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="ALIAS_EDITOR_COMPONENT" cellNumber="0" isInList="false">
-                      <node node_reference="r:d6774ea2-3db3-48e0-bcf0-76b0432d1893(RequirementEngineering.editor)/2074421435774897899" />
+                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                      <node node_reference="r:d6774ea2-3db3-48e0-bcf0-76b0432d1893(RequirementEngineering.editor)/2074421435774740105" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
                 <errorMarkers />
                 <folded />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:ac6b7302-5709-421f-9847-bea62c10c950(RequirementEngineering.sandbox)/2074421435774880788" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:ac6b7302-5709-421f-9847-bea62c10c950(RequirementEngineering.sandbox)/2074421435774923853" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <folded />
               </inspectorMemento>
               <node node_ref="r:d6774ea2-3db3-48e0-bcf0-76b0432d1893(RequirementEngineering.editor)/2074421435774740105" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Reachability" pinned="false" current-in-tab="false">
-        <entry file="mps://node://RequirementEngineering/RequirementEngineering.structure/Reachability">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorMarkers />
-                <folded />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:ac6b7302-5709-421f-9847-bea62c10c950(RequirementEngineering.sandbox)/2074421435774880788" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorMarkers />
-                <folded />
-              </inspectorMemento>
-              <node node_ref="r:d6774ea2-3db3-48e0-bcf0-76b0432d1893(RequirementEngineering.editor)/2074421435774789610" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Goal" pinned="false" current-in-tab="false">
-        <entry file="mps://node://RequirementEngineering/RequirementEngineering.structure/Goal">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="39" />
-                    <property name="caretX" value="103" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_conceptAlias" cellNumber="0" isInList="false">
-                      <node node_reference="r:8d59da90-3447-4c9a-b432-c0d01a63cfeb(RequirementEngineering.structure)/2074421435774716039" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorMarkers />
-                <folded />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:ac6b7302-5709-421f-9847-bea62c10c950(RequirementEngineering.sandbox)/2074421435774880788" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorMarkers />
-                <folded />
-              </inspectorMemento>
-              <node node_ref="r:8d59da90-3447-4c9a-b432-c0d01a63cfeb(RequirementEngineering.structure)/2074421435774716039" />
             </state>
           </provider>
         </entry>
@@ -168,7 +120,7 @@
                 <errorMarkers />
                 <folded />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:ac6b7302-5709-421f-9847-bea62c10c950(RequirementEngineering.sandbox)/2074421435774880788" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:ac6b7302-5709-421f-9847-bea62c10c950(RequirementEngineering.sandbox)/2074421435774923853" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <folded />
@@ -186,22 +138,107 @@
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="323" />
-                    <property name="caretX" value="427" />
+                    <property name="caretXRelative" value="56" />
+                    <property name="caretX" value="200" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_purpose" cellNumber="0" isInList="false">
-                      <node node_reference="r:ac6b7302-5709-421f-9847-bea62c10c950(RequirementEngineering.sandbox)/2074421435774880788" />
+                    <cellInfo cellId="property_newState" cellNumber="0" isInList="false">
+                      <node node_reference="r:ac6b7302-5709-421f-9847-bea62c10c950(RequirementEngineering.sandbox)/2074421435774923853" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
                 <errorMarkers />
                 <folded />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:ac6b7302-5709-421f-9847-bea62c10c950(RequirementEngineering.sandbox)/2074421435774880788" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:ac6b7302-5709-421f-9847-bea62c10c950(RequirementEngineering.sandbox)/2074421435774923853" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <folded />
               </inspectorMemento>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EAction" pinned="false" current-in-tab="false">
+        <entry file="mps://node://RequirementEngineering/RequirementEngineering.structure/EAction">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+              <memento viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="2" />
+                    <property name="caretX" value="285" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_externalValue" cellNumber="0" isInList="false">
+                      <node node_reference="r:8d59da90-3447-4c9a-b432-c0d01a63cfeb(RequirementEngineering.structure)/2074421435774716155" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorMarkers />
+                <folded />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:ac6b7302-5709-421f-9847-bea62c10c950(RequirementEngineering.sandbox)/2074421435774923853" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorMarkers />
+                <folded />
+              </inspectorMemento>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EReaction" pinned="false" current-in-tab="false">
+        <entry file="mps://node://RequirementEngineering/RequirementEngineering.structure/EReaction">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+              <memento viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="67" />
+                    <property name="caretX" value="287" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_externalValue" cellNumber="0" isInList="false">
+                      <node node_reference="r:8d59da90-3447-4c9a-b432-c0d01a63cfeb(RequirementEngineering.structure)/2074421435775078231" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorMarkers />
+                <folded />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:ac6b7302-5709-421f-9847-bea62c10c950(RequirementEngineering.sandbox)/2074421435774923853" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorMarkers />
+                <folded />
+              </inspectorMemento>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Update" pinned="false" current-in-tab="false">
+        <entry file="mps://node://RequirementEngineering/RequirementEngineering.structure/Update">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+              <memento viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="130" />
+                    <property name="caretX" value="194" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_conceptAlias" cellNumber="0" isInList="false">
+                      <node node_reference="r:8d59da90-3447-4c9a-b432-c0d01a63cfeb(RequirementEngineering.structure)/2074421435774716132" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorMarkers />
+                <folded />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:ac6b7302-5709-421f-9847-bea62c10c950(RequirementEngineering.sandbox)/2074421435774923853" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorMarkers />
+                <folded />
+              </inspectorMemento>
+              <node node_ref="r:8d59da90-3447-4c9a-b432-c0d01a63cfeb(RequirementEngineering.structure)/2074421435774716132" />
             </state>
           </provider>
         </entry>
@@ -225,7 +262,7 @@
                 <errorMarkers />
                 <folded />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:ac6b7302-5709-421f-9847-bea62c10c950(RequirementEngineering.sandbox)/2074421435774880788" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:ac6b7302-5709-421f-9847-bea62c10c950(RequirementEngineering.sandbox)/2074421435774923853" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <folded />
@@ -243,23 +280,23 @@
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="46" />
-                    <property name="caretX" value="110" />
+                    <property name="caretXRelative" value="79" />
+                    <property name="caretX" value="308" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_conceptAlias" cellNumber="0" isInList="false">
-                      <node node_reference="r:8d59da90-3447-4c9a-b432-c0d01a63cfeb(RequirementEngineering.structure)/2074421435774736123" />
+                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                      <node node_reference="r:d6774ea2-3db3-48e0-bcf0-76b0432d1893(RequirementEngineering.editor)/2074421435774789577" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
                 <errorMarkers />
                 <folded />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:ac6b7302-5709-421f-9847-bea62c10c950(RequirementEngineering.sandbox)/2074421435774880788" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:ac6b7302-5709-421f-9847-bea62c10c950(RequirementEngineering.sandbox)/2074421435774923853" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <folded />
               </inspectorMemento>
-              <node node_ref="r:8d59da90-3447-4c9a-b432-c0d01a63cfeb(RequirementEngineering.structure)/2074421435774736123" />
+              <node node_ref="r:d6774ea2-3db3-48e0-bcf0-76b0432d1893(RequirementEngineering.editor)/2074421435774789577" />
             </state>
           </provider>
         </entry>
@@ -283,40 +320,11 @@
                 <errorMarkers />
                 <folded />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:ac6b7302-5709-421f-9847-bea62c10c950(RequirementEngineering.sandbox)/2074421435774880788" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:ac6b7302-5709-421f-9847-bea62c10c950(RequirementEngineering.sandbox)/2074421435774923853" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <folded />
               </inspectorMemento>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Then" pinned="false" current-in-tab="false">
-        <entry file="mps://node://RequirementEngineering/RequirementEngineering.structure/Then">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="39" />
-                    <property name="caretX" value="120" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
-                      <node node_reference="r:8d59da90-3447-4c9a-b432-c0d01a63cfeb(RequirementEngineering.structure)/2074421435774712336" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorMarkers />
-                <folded />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:ac6b7302-5709-421f-9847-bea62c10c950(RequirementEngineering.sandbox)/2074421435774880788" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorMarkers />
-                <folded />
-              </inspectorMemento>
-              <node node_ref="r:8d59da90-3447-4c9a-b432-c0d01a63cfeb(RequirementEngineering.structure)/2074421435774712336" />
             </state>
           </provider>
         </entry>
@@ -565,13 +573,13 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2604404" sideWeight="0.64796424" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2548291" sideWeight="0.64796424" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Typesystem Trace" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Dependencies Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2604404" sideWeight="0.35203576" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2548291" sideWeight="0.35203576" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Module Dependencies" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Class Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -934,32 +942,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://RequirementEngineering/RequirementEngineering.structure/EAction">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="2" />
-                <property name="caretX" value="285" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_externalValue" cellNumber="0" isInList="false">
-                  <node node_reference="r:8d59da90-3447-4c9a-b432-c0d01a63cfeb(RequirementEngineering.structure)/2074421435774716155" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <folded />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:8d59da90-3447-4c9a-b432-c0d01a63cfeb(RequirementEngineering.structure)/2074421435774736120" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <folded />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://node://RequirementEngineering/RequirementEngineering.structure/Then">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
@@ -978,29 +960,12 @@
             <errorMarkers />
             <folded />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:ac6b7302-5709-421f-9847-bea62c10c950(RequirementEngineering.sandbox)/2074421435774880788" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:ac6b7302-5709-421f-9847-bea62c10c950(RequirementEngineering.sandbox)/2074421435775043998" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <folded />
           </inspectorMemento>
           <node node_ref="r:8d59da90-3447-4c9a-b432-c0d01a63cfeb(RequirementEngineering.structure)/2074421435774712336" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://RequirementEngineering/RequirementEngineering.structure/Reachability">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <folded />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:ac6b7302-5709-421f-9847-bea62c10c950(RequirementEngineering.sandbox)/2074421435774880788" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <folded />
-          </inspectorMemento>
-          <node node_ref="r:d6774ea2-3db3-48e0-bcf0-76b0432d1893(RequirementEngineering.editor)/2074421435774789610" />
         </state>
       </provider>
     </entry>
@@ -1022,7 +987,7 @@
             <errorMarkers />
             <folded />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:ac6b7302-5709-421f-9847-bea62c10c950(RequirementEngineering.sandbox)/2074421435774880788" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:8d59da90-3447-4c9a-b432-c0d01a63cfeb(RequirementEngineering.structure)/2074421435775078212" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <folded />
@@ -1049,7 +1014,7 @@
             <errorMarkers />
             <folded />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:ac6b7302-5709-421f-9847-bea62c10c950(RequirementEngineering.sandbox)/2074421435774880788" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:ac6b7302-5709-421f-9847-bea62c10c950(RequirementEngineering.sandbox)/2074421435774923853" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <folded />
@@ -1075,7 +1040,7 @@
             <errorMarkers />
             <folded />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:ac6b7302-5709-421f-9847-bea62c10c950(RequirementEngineering.sandbox)/2074421435774880788" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:ac6b7302-5709-421f-9847-bea62c10c950(RequirementEngineering.sandbox)/2074421435774923853" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <folded />
@@ -1091,18 +1056,18 @@
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="323" />
-                <property name="caretX" value="427" />
+                <property name="caretXRelative" value="56" />
+                <property name="caretX" value="200" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_purpose" cellNumber="0" isInList="false">
-                  <node node_reference="r:ac6b7302-5709-421f-9847-bea62c10c950(RequirementEngineering.sandbox)/2074421435774880788" />
+                <cellInfo cellId="property_newState" cellNumber="0" isInList="false">
+                  <node node_reference="r:ac6b7302-5709-421f-9847-bea62c10c950(RequirementEngineering.sandbox)/2074421435774923853" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
             <errorMarkers />
             <folded />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:ac6b7302-5709-421f-9847-bea62c10c950(RequirementEngineering.sandbox)/2074421435774880788" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:ac6b7302-5709-421f-9847-bea62c10c950(RequirementEngineering.sandbox)/2074421435774923853" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <folded />
@@ -1117,18 +1082,18 @@
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="11" />
-                <property name="caretX" value="42" />
+                <property name="caretXRelative" value="53" />
+                <property name="caretX" value="282" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="ReadOnlyModelAccessor_abi8e8_a" cellNumber="0" isInList="false">
-                  <node node_reference="r:d6774ea2-3db3-48e0-bcf0-76b0432d1893(RequirementEngineering.editor)/2074421435774740022" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:d6774ea2-3db3-48e0-bcf0-76b0432d1893(RequirementEngineering.editor)/2074421435774740020" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
             <errorMarkers />
             <folded />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:ac6b7302-5709-421f-9847-bea62c10c950(RequirementEngineering.sandbox)/2074421435774880788" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:ac6b7302-5709-421f-9847-bea62c10c950(RequirementEngineering.sandbox)/2074421435774923853" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <folded />
@@ -1144,18 +1109,18 @@
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="47" />
-                <property name="caretX" value="91" />
+                <property name="caretXRelative" value="57" />
+                <property name="caretX" value="286" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="ALIAS_EDITOR_COMPONENT" cellNumber="0" isInList="false">
-                  <node node_reference="r:d6774ea2-3db3-48e0-bcf0-76b0432d1893(RequirementEngineering.editor)/2074421435774897899" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:d6774ea2-3db3-48e0-bcf0-76b0432d1893(RequirementEngineering.editor)/2074421435774740105" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
             <errorMarkers />
             <folded />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:ac6b7302-5709-421f-9847-bea62c10c950(RequirementEngineering.sandbox)/2074421435774880788" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:ac6b7302-5709-421f-9847-bea62c10c950(RequirementEngineering.sandbox)/2074421435774923853" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <folded />
@@ -1182,7 +1147,7 @@
             <errorMarkers />
             <folded />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:ac6b7302-5709-421f-9847-bea62c10c950(RequirementEngineering.sandbox)/2074421435774880788" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:ac6b7302-5709-421f-9847-bea62c10c950(RequirementEngineering.sandbox)/2074421435774923853" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <folded />
@@ -1198,23 +1163,102 @@
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="46" />
-                <property name="caretX" value="110" />
+                <property name="caretXRelative" value="79" />
+                <property name="caretX" value="308" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_conceptAlias" cellNumber="0" isInList="false">
-                  <node node_reference="r:8d59da90-3447-4c9a-b432-c0d01a63cfeb(RequirementEngineering.structure)/2074421435774736123" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:d6774ea2-3db3-48e0-bcf0-76b0432d1893(RequirementEngineering.editor)/2074421435774789577" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
             <errorMarkers />
             <folded />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:ac6b7302-5709-421f-9847-bea62c10c950(RequirementEngineering.sandbox)/2074421435774880788" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:ac6b7302-5709-421f-9847-bea62c10c950(RequirementEngineering.sandbox)/2074421435774923853" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <folded />
           </inspectorMemento>
-          <node node_ref="r:8d59da90-3447-4c9a-b432-c0d01a63cfeb(RequirementEngineering.structure)/2074421435774736123" />
+          <node node_ref="r:d6774ea2-3db3-48e0-bcf0-76b0432d1893(RequirementEngineering.editor)/2074421435774789577" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://RequirementEngineering/RequirementEngineering.structure/EAction">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="2" />
+                <property name="caretX" value="285" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_externalValue" cellNumber="0" isInList="false">
+                  <node node_reference="r:8d59da90-3447-4c9a-b432-c0d01a63cfeb(RequirementEngineering.structure)/2074421435774716155" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <folded />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:ac6b7302-5709-421f-9847-bea62c10c950(RequirementEngineering.sandbox)/2074421435774923853" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <folded />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://RequirementEngineering/RequirementEngineering.structure/EReaction">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="67" />
+                <property name="caretX" value="287" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_externalValue" cellNumber="0" isInList="false">
+                  <node node_reference="r:8d59da90-3447-4c9a-b432-c0d01a63cfeb(RequirementEngineering.structure)/2074421435775078231" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <folded />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:ac6b7302-5709-421f-9847-bea62c10c950(RequirementEngineering.sandbox)/2074421435774923853" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <folded />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://RequirementEngineering/RequirementEngineering.structure/Update">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="130" />
+                <property name="caretX" value="194" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_conceptAlias" cellNumber="0" isInList="false">
+                  <node node_reference="r:8d59da90-3447-4c9a-b432-c0d01a63cfeb(RequirementEngineering.structure)/2074421435774716132" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <folded />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:ac6b7302-5709-421f-9847-bea62c10c950(RequirementEngineering.sandbox)/2074421435774923853" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <folded />
+          </inspectorMemento>
+          <node node_ref="r:8d59da90-3447-4c9a-b432-c0d01a63cfeb(RequirementEngineering.structure)/2074421435774716132" />
         </state>
       </provider>
     </entry>

@@ -13,6 +13,10 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.nodeEditor.EditorManager;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider;
+import jetbrains.mps.nodeEditor.InlineCellProvider;
 
 public class Interaction_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
@@ -25,7 +29,12 @@ public class Interaction_Editor extends DefaultNodeEditor {
     editorCell.setAction(CellActionType.COMMENT, new CellAction_Comment(node));
     editorCell.addEditorCell(this.createConstant_737lp_a0(editorContext, node));
     editorCell.addEditorCell(this.createProperty_737lp_b0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_737lp_c0(editorContext, node));
+    if (renderingCondition_737lp_a2a(node, editorContext)) {
+      editorCell.addEditorCell(this.createProperty_737lp_c0(editorContext, node));
+    }
+    editorCell.addEditorCell(this.createConstant_737lp_d0(editorContext, node));
+    editorCell.addEditorCell(this.createRefCell_737lp_e0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_737lp_f0(editorContext, node));
     return editorCell;
   }
   private EditorCell createConstant_737lp_a0(EditorContext editorContext, SNode node) {
@@ -50,9 +59,82 @@ public class Interaction_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-  private EditorCell createConstant_737lp_c0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "is selected");
-    editorCell.setCellId("Constant_737lp_c0");
+  private EditorCell createProperty_737lp_c0(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
+    provider.setRole("elementID");
+    provider.setNoTargetText("<no elementID>");
+    EditorCell editorCell;
+    editorCell = provider.createEditorCell(editorContext);
+    editorCell.setCellId("property_elementID");
+    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
+    SNode attributeConcept = provider.getRoleAttribute();
+    Class attributeKind = provider.getRoleAttributeClass();
+    if (attributeConcept != null) {
+      EditorManager manager = EditorManager.getInstanceFromContext(editorContext);
+      return manager.createNodeRoleAttributeCell(attributeConcept, attributeKind, editorCell);
+    } else
+    return editorCell;
+  }
+  private static boolean renderingCondition_737lp_a2a(SNode node, EditorContext editorContext) {
+    return SPropertyOperations.hasValue(node, MetaAdapterFactory.getProperty(0x29964a4c1fd5485aL, 0x8f37bb744b44ca74L, 0x1cc9d34e19cf16fbL, 0x1cc9d34e19cf16fcL, "action"), "element clicked", null) || SPropertyOperations.hasValue(node, MetaAdapterFactory.getProperty(0x29964a4c1fd5485aL, 0x8f37bb744b44ca74L, 0x1cc9d34e19cf16fbL, 0x1cc9d34e19cf16fcL, "action"), "range selected", null);
+  }
+  private EditorCell createConstant_737lp_d0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "is selected in");
+    editorCell.setCellId("Constant_737lp_d0");
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+  private EditorCell createRefCell_737lp_e0(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
+    provider.setRole("view");
+    provider.setNoTargetText("<no view>");
+    EditorCell editorCell;
+    provider.setAuxiliaryCellProvider(new Interaction_Editor._Inline_737lp_a4a());
+    editorCell = provider.createEditorCell(editorContext);
+    if (editorCell.getRole() == null) {
+      editorCell.setReferenceCell(true);
+      editorCell.setRole("view");
+    }
+    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
+    SNode attributeConcept = provider.getRoleAttribute();
+    Class attributeKind = provider.getRoleAttributeClass();
+    if (attributeConcept != null) {
+      EditorManager manager = EditorManager.getInstanceFromContext(editorContext);
+      return manager.createNodeRoleAttributeCell(attributeConcept, attributeKind, editorCell);
+    } else
+    return editorCell;
+  }
+  public static class _Inline_737lp_a4a extends InlineCellProvider {
+    public _Inline_737lp_a4a() {
+      super();
+    }
+    public EditorCell createEditorCell(EditorContext editorContext) {
+      return this.createEditorCell(editorContext, this.getSNode());
+    }
+    public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
+      return this.createProperty_737lp_a0e0(editorContext, node);
+    }
+    private EditorCell createProperty_737lp_a0e0(EditorContext editorContext, SNode node) {
+      CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
+      provider.setRole("name");
+      provider.setNoTargetText("<no name>");
+      provider.setReadOnly(true);
+      EditorCell editorCell;
+      editorCell = provider.createEditorCell(editorContext);
+      editorCell.setCellId("property_name");
+      editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
+      SNode attributeConcept = provider.getRoleAttribute();
+      Class attributeKind = provider.getRoleAttributeClass();
+      if (attributeConcept != null) {
+        EditorManager manager = EditorManager.getInstanceFromContext(editorContext);
+        return manager.createNodeRoleAttributeCell(attributeConcept, attributeKind, editorCell);
+      } else
+      return editorCell;
+    }
+  }
+  private EditorCell createConstant_737lp_f0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "view");
+    editorCell.setCellId("Constant_737lp_f0");
     editorCell.setDefaultText("");
     return editorCell;
   }

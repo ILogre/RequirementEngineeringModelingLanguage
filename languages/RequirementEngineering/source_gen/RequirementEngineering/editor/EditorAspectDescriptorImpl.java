@@ -29,9 +29,9 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
       case 6:
         return Collections.<ConceptEditor>singletonList(new Project_Editor());
       case 7:
-        return Collections.<ConceptEditor>singletonList(new Reachability_Editor());
-      case 8:
         return Collections.<ConceptEditor>singletonList(new Scenario_Editor());
+      case 8:
+        return Collections.<ConceptEditor>singletonList(new Update_Editor());
       case 9:
         return Collections.<ConceptEditor>singletonList(new View_Editor());
       default:
@@ -43,5 +43,5 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
   }
 
 
-  private static String[] stringSwitchCases_xbvbvu_a0a0b = new String[]{"RequirementEngineering.structure.Data", "RequirementEngineering.structure.Feature", "RequirementEngineering.structure.Given", "RequirementEngineering.structure.Goal", "RequirementEngineering.structure.Interaction", "RequirementEngineering.structure.Loading", "RequirementEngineering.structure.Project", "RequirementEngineering.structure.Reachability", "RequirementEngineering.structure.Scenario", "RequirementEngineering.structure.View"};
+  private static String[] stringSwitchCases_xbvbvu_a0a0b = new String[]{"RequirementEngineering.structure.Data", "RequirementEngineering.structure.Feature", "RequirementEngineering.structure.Given", "RequirementEngineering.structure.Goal", "RequirementEngineering.structure.Interaction", "RequirementEngineering.structure.Loading", "RequirementEngineering.structure.Project", "RequirementEngineering.structure.Scenario", "RequirementEngineering.structure.Update", "RequirementEngineering.structure.View"};
 }

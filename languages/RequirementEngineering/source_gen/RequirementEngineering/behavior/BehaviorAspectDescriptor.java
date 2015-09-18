@@ -15,7 +15,7 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
         return new Project_BehaviorDescriptor();
       case 1:
         return new Feature_BehaviorDescriptor();
-      case 8:
+      case 7:
         return new Scenario_BehaviorDescriptor();
       case 2:
         return new Given_BehaviorDescriptor();
@@ -25,8 +25,8 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
         return new Goal_BehaviorDescriptor();
       case 0:
         return new Data_BehaviorDescriptor();
-      case 7:
-        return new Reachability_BehaviorDescriptor();
+      case 8:
+        return new Update_BehaviorDescriptor();
       case 5:
         return new Loading_BehaviorDescriptor();
       case 4:
@@ -35,5 +35,5 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
         return BehaviorAspectInterpreted.getInstance().getDescriptor(fqName);
     }
   }
-  private static String[] stringSwitchCases_846f5o_a0a0b = new String[]{"RequirementEngineering.structure.Data", "RequirementEngineering.structure.Feature", "RequirementEngineering.structure.Given", "RequirementEngineering.structure.Goal", "RequirementEngineering.structure.Interaction", "RequirementEngineering.structure.Loading", "RequirementEngineering.structure.Project", "RequirementEngineering.structure.Reachability", "RequirementEngineering.structure.Scenario", "RequirementEngineering.structure.View"};
+  private static String[] stringSwitchCases_846f5o_a0a0b = new String[]{"RequirementEngineering.structure.Data", "RequirementEngineering.structure.Feature", "RequirementEngineering.structure.Given", "RequirementEngineering.structure.Goal", "RequirementEngineering.structure.Interaction", "RequirementEngineering.structure.Loading", "RequirementEngineering.structure.Project", "RequirementEngineering.structure.Scenario", "RequirementEngineering.structure.Update", "RequirementEngineering.structure.View"};
 }

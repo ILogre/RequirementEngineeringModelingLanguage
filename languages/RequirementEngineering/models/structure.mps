@@ -223,12 +223,12 @@
     </node>
   </node>
   <node concept="1TIwiD" id="1N9OOSpNGz$">
-    <property role="TrG5h" value="Reachability" />
-    <property role="34LRSv" value="then reachability" />
+    <property role="TrG5h" value="Update" />
+    <property role="34LRSv" value="then view update" />
     <ref role="1TJDcQ" node="1N9OOSpNFCg" resolve="Then" />
-    <node concept="1TJgyi" id="1N9OOSpOxpW" role="1TKVEl">
-      <property role="TrG5h" value="allowed" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    <node concept="1TJgyi" id="1N9OOSpP4Xb" role="1TKVEl">
+      <property role="TrG5h" value="reaction" />
+      <ref role="AX2Wp" node="1N9OOSpP4X4" resolve="EReaction" />
     </node>
     <node concept="1TJgyj" id="1N9OOSpNGzB" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -293,6 +293,32 @@
     <node concept="1TJgyi" id="1N9OOSpNLrW" role="1TKVEl">
       <property role="TrG5h" value="action" />
       <ref role="AX2Wp" node="1N9OOSpNGzM" resolve="EAction" />
+    </node>
+    <node concept="1TJgyi" id="1N9OOSpOWBj" role="1TKVEl">
+      <property role="TrG5h" value="elementID" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="AxPO7" id="1N9OOSpP4X4">
+    <property role="TrG5h" value="EReaction" />
+    <property role="PDuV0" value="true" />
+    <property role="3lZH7k" value="derive_from_internal_value" />
+    <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
+    <node concept="M4N5e" id="1N9OOSpP4X5" role="M5hS2">
+      <property role="1uS6qv" value="sync" />
+      <property role="1uS6qo" value="synchronized" />
+    </node>
+    <node concept="M4N5e" id="1N9OOSpP4X6" role="M5hS2">
+      <property role="1uS6qv" value="goto" />
+      <property role="1uS6qo" value="loaded" />
+    </node>
+    <node concept="M4N5e" id="1N9OOSpP4Xg" role="M5hS2">
+      <property role="1uS6qv" value="enable" />
+      <property role="1uS6qo" value="enabled" />
+    </node>
+    <node concept="M4N5e" id="1N9OOSpP4Xn" role="M5hS2">
+      <property role="1uS6qv" value="disable" />
+      <property role="1uS6qo" value="disabled" />
     </node>
   </node>
 </model>

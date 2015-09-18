@@ -12,11 +12,15 @@
       </concept>
     </language>
     <language id="29964a4c-1fd5-485a-8f37-bb744b44ca74" name="RequirementEngineering">
+      <concept id="2074421435774736123" name="RequirementEngineering.structure.Interaction" flags="ng" index="51GmP">
+        <property id="2074421435774736124" name="action" index="51GmM" />
+        <property id="2074421435775044051" name="elementID" index="56xEt" />
+      </concept>
       <concept id="2074421435774736120" name="RequirementEngineering.structure.Loading" flags="ng" index="51GmQ">
         <property id="2074421435774736121" name="newState" index="51GmR" />
       </concept>
-      <concept id="2074421435774716132" name="RequirementEngineering.structure.Reachability" flags="ng" index="51LIE">
-        <property id="2074421435774932604" name="allowed" index="56WkM" />
+      <concept id="2074421435774716132" name="RequirementEngineering.structure.Update" flags="ng" index="51LIE">
+        <property id="2074421435775078219" name="reaction" index="57pK5" />
         <reference id="2074421435774716135" name="target" index="51LID" />
       </concept>
       <concept id="2074421435774712335" name="RequirementEngineering.structure.When" flags="ng" index="51Q_1">
@@ -57,40 +61,115 @@
       <property role="TrG5h" value="winter" />
       <property role="51Q_j" value="monitor the heating system and the lights" />
     </node>
+    <node concept="51Q_k" id="1N9OOSpP4WO" role="51Q_a">
+      <property role="TrG5h" value="surrounding" />
+      <property role="51Q_j" value="analyze the noise impact on work" />
+    </node>
     <node concept="51QEz" id="1N9OOSpNUBI" role="51QEY">
       <property role="TrG5h" value="Overall navigability" />
-      <property role="51QEU" value="set global behavior of the solution" />
+      <property role="51QEU" value="set global navigability of the solution" />
       <node concept="51QEK" id="1N9OOSpNWcA" role="51QEL">
+        <node concept="51LIE" id="1N9OOSpPf0J" role="51Q_o">
+          <property role="57pK5" value="enable" />
+          <ref role="51LID" node="1N9OOSpOkKk" resolve="summer" />
+        </node>
+        <node concept="51LIE" id="1N9OOSpPf0S" role="51Q_o">
+          <property role="57pK5" value="enable" />
+          <ref role="51LID" node="1N9OOSpNT1Q" resolve="winter" />
+        </node>
+        <node concept="51LIE" id="1N9OOSpPhNH" role="51Q_o">
+          <property role="57pK5" value="enable" />
+          <ref role="51LID" node="1N9OOSpP4WO" resolve="surrounding" />
+        </node>
         <node concept="51GmQ" id="1N9OOSpOvhd" role="51Q_t">
           <property role="51GmR" value="Current" />
           <ref role="51wZb" node="1N9OOSpNT1L" resolve="overiew" />
         </node>
         <node concept="51Q_2" id="1N9OOSpNWcC" role="51Q_v">
-          <property role="51Q_3" value="Working Condition" />
-        </node>
-        <node concept="51LIE" id="1N9OOSpOLtL" role="51Q_o">
-          <property role="56WkM" value="true" />
-          <ref role="51LID" node="1N9OOSpOkKk" resolve="summer" />
-        </node>
-        <node concept="51LIE" id="1N9OOSpOxoF" role="51Q_o">
-          <property role="56WkM" value="true" />
-          <ref role="51LID" node="1N9OOSpNT1Q" resolve="winter" />
+          <property role="51Q_3" value="Working Conditions" />
         </node>
       </node>
       <node concept="51QEK" id="1N9OOSpNUBJ" role="51QEL">
         <node concept="51GmQ" id="1N9OOSpOxoJ" role="51Q_t">
-          <property role="51GmR" value="Over" />
+          <property role="51GmR" value="Current" />
           <ref role="51wZb" node="1N9OOSpOkKk" resolve="summer" />
         </node>
         <node concept="51Q_2" id="1N9OOSpNUBL" role="51Q_v">
-          <property role="51Q_3" value="Working Condition" />
-        </node>
-        <node concept="51LIE" id="1N9OOSpOxoQ" role="51Q_o">
-          <property role="56WkM" value="true" />
-          <ref role="51LID" node="1N9OOSpNT1L" resolve="overiew" />
+          <property role="51Q_3" value="Working Conditions" />
         </node>
         <node concept="51LIE" id="1N9OOSpOxpS" role="51Q_o">
+          <property role="57pK5" value="disable" />
           <ref role="51LID" node="1N9OOSpNT1Q" resolve="winter" />
+        </node>
+      </node>
+      <node concept="51QEK" id="1N9OOSpPhPO" role="51QEL">
+        <node concept="51GmQ" id="1N9OOSpPhQo" role="51Q_t">
+          <property role="51GmR" value="Current" />
+          <ref role="51wZb" node="1N9OOSpNT1Q" resolve="winter" />
+        </node>
+        <node concept="51Q_2" id="1N9OOSpPhPQ" role="51Q_v">
+          <property role="51Q_3" value="Working Conditions" />
+        </node>
+        <node concept="51LIE" id="1N9OOSpPhQz" role="51Q_o">
+          <property role="57pK5" value="disable" />
+          <ref role="51LID" node="1N9OOSpOkKk" resolve="summer" />
+        </node>
+      </node>
+    </node>
+    <node concept="51QEz" id="1N9OOSpOWAq" role="51QEY">
+      <property role="TrG5h" value="Interaction" />
+      <property role="51QEU" value="handle the behavior between visualizations" />
+      <node concept="51QEK" id="1N9OOSpPf7t" role="51QEL">
+        <node concept="51GmP" id="1N9OOSpPf7S" role="51Q_t">
+          <property role="51GmM" value="element clicked" />
+          <property role="56xEt" value="door" />
+          <ref role="51wZb" node="1N9OOSpP4WO" resolve="surrounding" />
+        </node>
+        <node concept="51GmP" id="1N9OOSpPf81" role="51Q_t">
+          <property role="51GmM" value="element clicked" />
+          <property role="56xEt" value="window" />
+          <ref role="51wZb" node="1N9OOSpP4WO" resolve="surrounding" />
+        </node>
+        <node concept="51GmP" id="1N9OOSpPf8e" role="51Q_t">
+          <property role="51GmM" value="element clicked" />
+          <property role="56xEt" value="air conditionning" />
+          <ref role="51wZb" node="1N9OOSpOkKk" resolve="summer" />
+        </node>
+        <node concept="51GmP" id="1N9OOSpPf8v" role="51Q_t">
+          <property role="51GmM" value="element clicked" />
+          <property role="56xEt" value="window" />
+          <ref role="51wZb" node="1N9OOSpOkKk" resolve="summer" />
+        </node>
+        <node concept="51GmP" id="1N9OOSpPf9j" role="51Q_t">
+          <property role="51GmM" value="element clicked" />
+          <property role="56xEt" value="heating" />
+          <ref role="51wZb" node="1N9OOSpNT1Q" resolve="winter" />
+        </node>
+        <node concept="51GmP" id="1N9OOSpPf9G" role="51Q_t">
+          <property role="51GmM" value="element clicked" />
+          <property role="56xEt" value="light" />
+          <ref role="51wZb" node="1N9OOSpNT1Q" resolve="winter" />
+        </node>
+        <node concept="51Q_2" id="1N9OOSpPf7v" role="51Q_v">
+          <property role="51Q_3" value="Working Conditions" />
+        </node>
+        <node concept="51LIE" id="1N9OOSpPf9U" role="51Q_o">
+          <property role="57pK5" value="goto" />
+          <ref role="51LID" node="1N9OOSpNT1L" resolve="overiew" />
+        </node>
+      </node>
+      <node concept="51QEK" id="1N9OOSpOWAr" role="51QEL">
+        <node concept="51GmP" id="1N9OOSpOWB6" role="51Q_t">
+          <property role="51GmM" value="range selected" />
+          <property role="56xEt" value="time" />
+          <ref role="51wZb" node="1N9OOSpP4WO" resolve="surrounding" />
+        </node>
+        <node concept="51Q_2" id="1N9OOSpOWAt" role="51Q_v">
+          <property role="51Q_3" value="Working Conditions" />
+        </node>
+        <node concept="51LIE" id="1N9OOSpPf1b" role="51Q_o">
+          <property role="57pK5" value="sync" />
+          <ref role="51LID" node="1N9OOSpP4WO" resolve="surrounding" />
         </node>
       </node>
     </node>
